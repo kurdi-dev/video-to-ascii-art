@@ -1,0 +1,21 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #000;
+}
+#app {
+  font-family: 'Courier', Avenir, Helvetica, Arial, sans-serif;
+  font-size: 18pt;
+  line-height: 10pt;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #ffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+canvas {
+  display: block;
+}
